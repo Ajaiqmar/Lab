@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Calculator">
+		<meta name="keywords" content="calculator,arithmetic operations,cal">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> CALCULATOR </title>
+		<link rel="stylesheet" media="screen and (min-width:1241px)" href="CSS/calculator.css">
+		<link rel="stylesheet" media="screen and (max-width:1240px)" href="CSS/calculator_ph.css">
+		<link rel="icon" href="IMAGES/calculator.png">
+	</head>
+	<body>
+		<div id="bg">
+			<div id="output"> </div>
+			<div id="input"> </div>
+			<button class="options" onclick="clear_space()" id="C">C</button>
+			<button class="options" onclick="backspace()" id="BS">BS</button>
+			<button class="operand" onclick="arithmetic('%')" id="%">%</button>
+			<button class="operand" onclick="arithmetic('/')" id="/">/</button>
+			<button class="numbers" onclick="arithmetic('1')" id="1">1</button>
+			<button class="numbers" onclick="arithmetic('2')" id="2">2</button>
+			<button class="numbers" onclick="arithmetic('3')" id="3">3</button>
+			<button class="operand" onclick="arithmetic('x')" id="x">x</button>
+			<button class="numbers" onclick="arithmetic('4')" id="4">4</button>
+			<button class="numbers" onclick="arithmetic('5')" id="5">5</button>
+			<button class="numbers" onclick="arithmetic('6')" id="6">6</button>
+			<button class="operand" onclick="arithmetic('+')" id="+">+</button>
+			<button class="numbers" onclick="arithmetic('7')" id="7">7</button>
+			<button class="numbers" onclick="arithmetic('8')" id="8">8</button>
+			<button class="numbers" onclick="arithmetic('9')" id="9">9</button>
+			<button class="operand" onclick="arithmetic('-')" id="-">-</button>
+			<button class="blank" id=""> </button>
+			<button class="numbers" onclick="arithmetic('0')" id="0">0</button>
+			<button class="blank" id=""> </button>
+			<button class="operand" onclick="arithmetic('=')" id="=">=</button>
+		</div>
+	<script src="JAVASCRIPT/calculator.js"> </script>
+	</body>
+</html>
+
